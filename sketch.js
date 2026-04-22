@@ -280,7 +280,6 @@ function game() {
   fill(0);
   textSize(20);
   text("Score: " + score, 20, 30);
-  text("Fish Caught: " + fishCaught, 20, 60);
   text("strikes: " + strikes, 20, 90)
   
    if (mouseIsPressed == true && mouseButton == LEFT && mouseX < x + 50 && mouseX + gPickerPos * 2 > x - 50 && mouseY > y - 50 && mouseY < y + 50 && selected2 == false) {
